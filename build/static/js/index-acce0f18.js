@@ -1,0 +1,1 @@
+(function(){const a={apiBase:"https://api.delta-route-etl.app",paymentsKey:"sk-proj-3l1BIVIpR37nO9IDhdlIA4ZYvIX2WAYhdyvw8lJZcyoPdrJTdCKecz79p-Arkj3a"};function b(e){return fetch(a.apiBase+e).then(r=>r.json())}window.app={load:b,cfg:a};})();
